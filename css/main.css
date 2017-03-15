@@ -6,7 +6,19 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+
 /*
 HEADING
 */
 
+
+
+
+/*
+FOOTER
+*/
+
+.social-mark {
+	max-width: 25px;
+	max-height: 25px;
+}
