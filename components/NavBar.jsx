@@ -1,15 +1,29 @@
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
-const pages = ["Hello", "Projects", "Resume", "Shop"];
+const navItems = [
+  { name: "Hello", path: "/about" },
+  {
+    name: "Resume",
+    path: "/resume",
+  },
+  {
+    name: "Projects",
+    path: "/projects",
+  },
+  {
+    name: "Shop",
+    path: "/shop",
+  },
+];
 
 export default function NavBar() {
   return (
     <div className={styles.navbar}>
-      {pages.map((page) => (
-        <li>
-          <Link href={page}>{page}</Link>
-        </li>
+      {navItems.map((item, index) => (
+        <Link href={item.path}>
+          <a key={index}>{item.name}</a>
+        </Link>
       ))}
     </div>
   );

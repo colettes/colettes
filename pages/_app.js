@@ -1,8 +1,8 @@
 import '../styles/globals.css'
-import Title from '../components/Title'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
-  return (<><Title /><Component {...pageProps} /></>)
+  return (<Layout><Component {...pageProps} /></Layout>)
 }
 
 export default MyApp;

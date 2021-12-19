@@ -67,8 +67,7 @@
   }
 }
 
-.navbar li {
+.navbar a {
   display: inline-block;
-  list-style: none;
-  margin: auto 1.5rem;
+  padding: 4vmin 4vmin;
 }
