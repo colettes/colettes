@@ -21,8 +21,8 @@ export default function NavBar() {
   return (
     <div className={styles.navbar}>
       {navItems.map((item, index) => (
-        <Link href={item.path}>
-          <a key={index}>{item.name}</a>
+        <Link href={item.path} key={index}>
+          <a>{item.name}</a>
         </Link>
       ))}
     </div>
