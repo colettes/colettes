@@ -1,21 +1,29 @@
-import stockPic from "../../public/projectPics/stockTrackerApp.png";
-import logoPic from "../../public/projectPics/tetiLogo.png";
 import ProjectCard from "../../components/ProjectCard";
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Projects.module.css";
+
+const projectList = [
+  {
+    title: "iOS App",
+    image: "/projectPics/stockTrackerApp.png",
+    link: "https://www.behance.net/gallery/115517541/Stock-Tacker-App/modules/659203887",
+  },
+  {
+    title: "Logo Design",
+    image: "/projectPics/tetiLogo.png",
+    link: "https://www.behance.net/gallery/133423139/Logo-Design",
+  },
+];
 
 function ProjectsPage() {
   return (
     <div className={styles.grid}>
-      <ProjectCard
-        link="https://www.behance.net/gallery/115517541/Stock-Tacker-App/modules/659203887"
-        image={stockPic}
-        title="iOS App"
-      />
-      <ProjectCard
-        link="https://www.behance.net/gallery/133423139/Logo-Design"
-        image={logoPic}
-        title="Logo Design"
-      />
+      {projectList.map((project) => (
+        <ProjectCard
+          title={project.title}
+          image={project.image}
+          link={project.link}
+        />
+      ))}
     </div>
   );
 }
