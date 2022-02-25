@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import NavBar from "./NavBar";
 import Link from "next/link";
+import Footer from "./Footer";
 
 export default function Layout(props) {
   return (
@@ -19,6 +20,7 @@ export default function Layout(props) {
         </Link>
         <NavBar />
         {props.children}
+        <Footer />
       </main>
     </div>
   );
