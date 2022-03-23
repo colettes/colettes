@@ -3,14 +3,31 @@ import styles from "../../styles/Projects.module.css";
 
 const projectList = [
   {
-    title: "iOS App",
+    title: "Fullstack: iOS App",
     image: "/projectPics/stockTrackerApp.png",
+    path: "/projects/stocktracker",
     link: "https://www.behance.net/gallery/115517541/Stock-Tacker-App/modules/659203887",
   },
   {
-    title: "Logo Design",
+    title: "Design: Logo Design",
     image: "/projectPics/tetiLogo.png",
+    path: "/projects/tetilogo",
     link: "https://www.behance.net/gallery/133423139/Logo-Design",
+  },
+  {
+    title: "Fullstack: D2L Redesign",
+    image: "/projectPics/d3l.png",
+    path: "projects/d3l",
+  },
+  {
+    title: "UXD: Class Scheduler",
+    image: "/projectPics/classscheduler",
+    path: "projects/classScheduler",
+  },
+  {
+    title: "Fullstack: Art Application",
+    image: "/projectPics/artApplication",
+    path: "projects/artapp",
   },
 ];
 
@@ -21,7 +38,7 @@ function ProjectsPage() {
         <ProjectCard
           title={project.title}
           image={project.image}
-          link={project.link}
+          path={project.path}
         />
       ))}
     </div>

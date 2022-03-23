@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 const navItems = [
-  { name: "Hello", path: "/about" },
+  { name: "About", path: "/about" },
   {
     name: "Resume",
     path: "/resume",
@@ -12,8 +12,8 @@ const navItems = [
     path: "/projects",
   },
   {
-    name: "Shop",
-    path: "/shop",
+    name: "Likes",
+    path: "/likes",
   },
 ];
 
