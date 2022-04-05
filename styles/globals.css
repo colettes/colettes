@@ -1,10 +1,10 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 1em;
   color: #005c26;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, gopher, sans-serif;
+  font-family: gopher, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
 }
 
 a {
@@ -13,6 +13,5 @@ a {
 }
 
 * {
-  box-sizing: border-box;
   background-color: #bdfcbf;
 }

@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Layout.module.css";
 import Head from "next/head";
 import NavBar from "./NavBar";
 import Link from "next/link";
@@ -7,7 +7,7 @@ import Footer from "./Footer";
 export default function Layout(props) {
   return (
     <div>
-      <div className={styles.container}>
+      <div>
         <Head>
           <title>Colette Smith</title>
           <meta name="description" content="Colette's Portfolio" />

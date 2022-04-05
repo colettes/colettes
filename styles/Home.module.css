@@ -1,23 +1,13 @@
-.main {
-  align-items: baseline;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  height: 12%;
-  padding: 1em 3em 3em 2em;
-  font-family: gopher, sans-serif;
+.container {
+  font-size: 8vmin;
 }
 
-.title {
-  font-size: 3vw;
-  font-weight: 700;
+.left {
+  align-self: flex-start;
+  text-align: left;
 }
 
-.navbar a {
-  font-size: 2vw;
-  padding: 0 3vw;
-}
-
-.content {
-  flex-direction: column;
+.right {
+  align-self: flex-end;
+  text-align: right;
 }

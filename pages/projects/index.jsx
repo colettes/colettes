@@ -1,5 +1,5 @@
 import ProjectCard from "../../components/ProjectCard";
-import styles from "../../styles/Projects.module.css";
+import styles from "../../styles/Cards.module.css";
 
 const projectList = [
   {
@@ -33,14 +33,17 @@ const projectList = [
 
 function ProjectsPage() {
   return (
-    <div className={styles.grid}>
-      {projectList.map((project) => (
-        <ProjectCard
-          title={project.title}
-          image={project.image}
-          path={project.path}
-        />
-      ))}
+    <div>
+      <div className={styles.title}>Projects</div>
+      <div className={styles.grid}>
+        {projectList.map((project) => (
+          <ProjectCard
+            title={project.title}
+            image={project.image}
+            path={project.path}
+          />
+        ))}
+      </div>
     </div>
   );
 }

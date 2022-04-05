@@ -1,0 +1,28 @@
+.main {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 12%;
+  padding-top: 1em;
+  padding-bottom: 12vmin;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3.5vmin;
+}
+
+.navbar a {
+  padding: 0 0.8em;
+  font-size: 2.5vmin;
+}
+
+.navbar a:hover {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.content {
+  flex-direction: column;
+}

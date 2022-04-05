@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Layout.module.css";
 import Link from "next/link";
 
 const navItems = [
@@ -14,6 +14,10 @@ const navItems = [
     name: "Likes",
     path: "/likes",
   },
+  {
+    name: "Contact",
+    path: "/contact",
+  },
 ];
 
 export default function NavBar() {
@@ -27,5 +31,3 @@ export default function NavBar() {
     </div>
   );
 }
-
-// convert styling from li to links
