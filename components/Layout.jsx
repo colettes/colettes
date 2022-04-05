@@ -16,12 +16,12 @@ export default function Layout(props) {
       </div>
       <main className={styles.main}>
         <Link href="/">
-          <a className={styles.title}> Colette Smith</a>
+          <div className={styles.title}> Colette Smith</div>
         </Link>
         <NavBar />
-        {props.children}
-        <Footer />
       </main>
+      <div className={styles.content}>{props.children}</div>
+      <Footer />
     </div>
   );
 }
