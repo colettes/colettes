@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 export default function Layout(props) {
   return (
-    <div>
+    <div className={styles.layout}>
       <div>
         <Head>
           <title>Colette Smith</title>
@@ -16,12 +16,14 @@ export default function Layout(props) {
       </div>
       <main className={styles.main}>
         <Link href="/">
-          <div className={styles.title}> Colette Smith</div>
+          <a className={styles.title}>Colette Smith</a>
         </Link>
         <NavBar />
       </main>
-      <div className={styles.content}>{props.children}</div>
-      <Footer />
+      <div className={styles.content}>
+        {props.children}
+        <Footer />
+      </div>
     </div>
   );
 }

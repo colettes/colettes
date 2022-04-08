@@ -1,0 +1,36 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5vmin;
+  padding: 5vmin 12vmin;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card {
+  padding-bottom: 3vmin;
+  transition: color 1s ease, border-color 0.5s ease;
+  width: 45%;
+  display: flex;
+  flex: column;
+}
+
+.image:hover,
+.image:focus,
+.image:active {
+  opacity: 1;
+}
+
+.image {
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 2vmin;
+}

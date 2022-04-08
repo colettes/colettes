@@ -1,3 +1,7 @@
 export default function NotFound() {
-  return <div className="not-found">Hello there, that doesn't exist.</div>;
+  return (
+    <h1>
+      Sorry, <br /> nothing to see here.
+    </h1>
+  );
 }

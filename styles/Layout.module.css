@@ -1,3 +1,14 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  padding-bottom: 30vmin; /* Footer height */
+}
+
 .main {
   align-items: baseline;
   display: flex;
@@ -5,7 +16,7 @@
   flex-direction: row;
   height: 12%;
   padding-top: 1em;
-  padding-bottom: 12vmin;
+  background-color: #bdfcbf;
 }
 
 .title {
@@ -13,16 +24,28 @@
   font-size: 3.5vmin;
 }
 
+.navbar a:hover,
+.title:hover,
+.footer_links i:hover {
+  opacity: 0.4;
+}
+
 .navbar a {
   padding: 0 0.8em;
   font-size: 2.5vmin;
 }
 
-.navbar a:hover {
-  font-weight: 700;
-  font-style: italic;
+.layout footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vmin;
+  text-align: center;
+  padding-top: 3vmin;
+  opacity: 1;
 }
 
-.content {
-  flex-direction: column;
+.footer_links i {
+  font-size: large;
+  padding: 2vmin;
 }

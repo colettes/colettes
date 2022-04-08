@@ -1,3 +1,7 @@
 export default function Index() {
-  return <div>contact</div>;
+  return (
+    <div>
+      <h1>Contact</h1>
+    </div>
+  );
 }

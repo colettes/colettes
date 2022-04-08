@@ -2,6 +2,10 @@
   font-size: 8vmin;
 }
 
+.container h1 {
+  font-weight: normal;
+}
+
 .left {
   align-self: flex-start;
   text-align: left;
