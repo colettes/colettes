@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProjectCard(props) {
   return (
     <div className={styles.card}>
-      <a href={props.link}>
+      <a href={props.path}>
         <Image
           className={styles.image}
           src={props.image}

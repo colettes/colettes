@@ -1,5 +1,9 @@
-function ProjectDetailPage() {
-  return <div>project detail page</div>;
+function ProjectDetailPage(props) {
+  return (
+    <div>
+      <h1>{props.title}</h1>
+    </div>
+  );
 }
 
 export default ProjectDetailPage;
