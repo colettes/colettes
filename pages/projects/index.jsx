@@ -3,6 +3,7 @@ import styles from "../../styles/Projects.module.css";
 
 const projectList = [
   {
+    key: 1,
     title: "Fullstack: iOS App",
     image: "/projectPics/stockTrackerApp.png",
     path: "/projects/stocktracker",
@@ -10,6 +11,7 @@ const projectList = [
     info: "TODO",
   },
   {
+    key: 2,
     title: "Design: Logo Design",
     image: "/projectPics/tetiLogo.png",
     path: "/projects/tetilogo",
@@ -17,12 +19,16 @@ const projectList = [
     info: "TODO",
   },
   {
+    key: 3,
+
     title: "Fullstack: D2L Redesign",
     image: "/projectPics/d3l.png",
     path: "projects/d3l",
     info: "TODO",
   },
   {
+    key: 4,
+
     title: "UXD: Class Scheduler",
     image: "/projectPics/classscheduler",
     path: "projects/classScheduler",
@@ -38,6 +44,7 @@ function ProjectsPage() {
         {projectList.map((project) => (
           <ProjectCard
             title={project.title}
+            key={project.key}
             image={project.image}
             path={project.path}
             info={project.info}
