@@ -6,12 +6,12 @@ export default function Footer() {
       <div className={styles.footer_wrapper}>
         <div className={styles.footer_links}>
           <a href="https://github.com/colettes">
-            <i class="bi bi-github"></i>
+            <i className="bi bi-github"></i>
           </a>
-          <i class="bi bi-linkedin"></i>
+          <i className="bi bi-linkedin"></i>
 
-          <i class="bi bi-behance"></i>
-          <i class="bi bi-envelope"></i>
+          <i className="bi bi-behance"></i>
+          <i className="bi bi-envelope"></i>
         </div>
         <div>Colette Smith 2022</div>
       </div>
