@@ -1,42 +1,59 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
 
 .section {
-  margin-top: 5vmin;
-  padding: 5vmin 12vmin;
-  background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5vmin;
+    padding: 5vmin 12vmin;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .section_title {
-  font-size: 4vmin;
-  padding-bottom: 3vmin;
+    font-size: 4vmin;
+    padding-bottom: 3vmin;
 }
 
 .subsection {
-  display: flex;
-  flex: row;
-  align-items: center;
-  max-width: 75vmin;
-  padding-bottom: 3vmin;
+    display: flex;
+    flex: row;
+    align-items: center;
+    max-width: 75vmin;
+    padding-bottom: 3vmin;
 }
 
 .subsection_title {
-  font-size: 2.5vmin;
-  font-weight: 500;
+    font-size: 2.5vmin;
+    font-weight: 500;
 }
 
 .date {
-  opacity: 50%;
-  padding-right: 3vmin;
-  margin: 0vmin;
-  line-height: 90%;
-  text-align: center;
+    opacity: 50%;
+    padding-right: 3vmin;
+    margin: 0vmin;
+    line-height: 90%;
+    text-align: center;
 }
 
 .subsection_subtitle {
-  opacity: 50%;
-  padding-bottom: 2vmin;
+    opacity: 50%;
+    padding-bottom: 2vmin;
+}
+
+.subsection_skills {
+    display: flex;
+    gap: 10vmin;
+    padding-bottom: 2vmin;
+}
+
+.subsection_skills_title {
+    font-size: 2.5vmin;
+    font-weight: 500;
+}
+
+.subsection_skill {
+    opacity: 50%;
+    padding-top: 2vmin;
+    font-size: 2vmin;
 }
 
 .subsection_desc {
-  font-size: 2vmin;
+    font-size: 2vmin;
 }
