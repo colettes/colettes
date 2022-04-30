@@ -14,10 +14,6 @@ const navItems = [
         name: 'Projects',
         path: '/projects',
     },
-    {
-        name: 'Contact',
-        path: '/contact',
-    },
 ];
 
 export default function NavBar() {
