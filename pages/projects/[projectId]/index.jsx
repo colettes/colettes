@@ -1,11 +1,11 @@
-import { projectList } from '../../../public/projectList';
+import { useRouter } from 'next/router';
 
-function ProjectDetailPage() {
+export default function ProjectDetailPage() {
+    const router = useRouter();
+
     return (
         <div>
-            <h1>{projectList.title}</h1>
+            <h1>{router.asPath}</h1>
         </div>
     );
 }
-
-export default ProjectDetailPage;
