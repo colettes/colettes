@@ -43,7 +43,19 @@ function ResumePage() {
                     </div>
                 </div>
                 <div className={styles.subsection}>
-                    <div className={styles.date}>2017 &darr; Now</div>
+                    <div className={styles.date}>2022 &darr; now</div>
+                    <div className={styles.subsection_info}>
+                        <div className={styles.subsection_title}>STEPCHLD</div>
+                        <div className={styles.subsection_subtitle}>
+                            Bartender
+                        </div>
+                        <div className={styles.subsection_desc}>
+                            all the info is bd
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.subsection}>
+                    <div className={styles.date}>2018 &darr; 2022</div>
                     <div className={styles.subsection_info}>
                         <div className={styles.subsection_title}>
                             Centro Restaurant Group
@@ -52,10 +64,10 @@ function ResumePage() {
                             Bartender / Manager
                         </div>
                         <div className={styles.subsection_desc}>
-                            I maintain an important role in elevating customer
+                            I maintained an important role in elevating customer
                             satisfaction by remaining calm and calibrated under
-                            demanding situations. I lead and direct employees to
-                            address current business needs in a fast-paced
+                            demanding situations. I lead and directed employees
+                            to address current business needs in a fast-paced
                             environment.
                         </div>
                     </div>
@@ -99,7 +111,7 @@ function ResumePage() {
                 <div className={styles.subsection}>
                     <div className={styles.subsection_skills}>
                         <div className={styles.subsection_skills_title}>
-                            Tech Skills
+                            Tech
                             {techSkills.map((skill) => (
                                 <div className={styles.subsection_skill}>
                                     {skill}
@@ -108,7 +120,7 @@ function ResumePage() {
                         </div>
 
                         <div className={styles.subsection_skills_title}>
-                            Soft Skills
+                            Other
                             {softSkills.map((skill) => (
                                 <div className={styles.subsection_skill}>
                                     {skill}
