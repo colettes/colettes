@@ -1,21 +1,26 @@
 html,
 body {
-  margin: 0 1em;
-  color: #005c26;
-  background-color: #bdfcbf;
-  font-family: gopher, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+    margin: 0 1em;
+    /*color: #005c26 */
+    color: #0b0602;
+    background-color: #fdf3ec;
+    /* background-color: #bdfcbf; */
+    font-family: poppins, sans-serif, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 /* each page title*/
 h1 {
-  font-size: 10vmin;
-  font-weight: 700;
-  padding: 10vmin 0 7vmin 12vmin;
-}
+    font-size: 10vmin;
+    font-weight: 500;
+    padding: 10vmin 0 7vmin 12vmin;
 
+    font-family: gopher, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+}

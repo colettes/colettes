@@ -1,51 +1,57 @@
 .layout {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
 }
 
 .content {
-  padding-bottom: 30vmin; /* Footer height */
+    padding-bottom: 30vmin; /* Footer height */
 }
 
 .main {
-  align-items: baseline;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  height: 12%;
-  padding-top: 1em;
-  background-color: #bdfcbf;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 12%;
+    padding-top: 1em;
 }
 
 .title {
-  font-weight: 700;
-  font-size: 3.5vmin;
+    font-weight: 700;
+    font-size: 3.5vmin;
+    color: #d02500;
+    font-family: gopher, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
 }
 
 .navbar a:hover,
 .title:hover,
 .footer_links i:hover {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .navbar a {
-  padding: 0 0.8em;
-  font-size: 2.5vmin;
+    padding: 0 0.8em;
+    font-size: 2.5vmin;
+    font-weight: 500;
+    color: rgb(20, 20, 212);
+    font-family: gopher, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
 }
 
 .layout footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 10vmin;
-  text-align: center;
-  padding-top: 3vmin;
-  opacity: 1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vmin;
+    text-align: center;
+    padding-top: 3vmin;
+    opacity: 1;
 }
 
 .footer_links i {
-  font-size: large;
-  padding: 2vmin;
+    font-size: large;
+    padding: 2vmin;
 }
