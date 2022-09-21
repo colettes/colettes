@@ -10,7 +10,7 @@ function ProjectsPage() {
                 {projectList.map((project) => (
                     <ProjectCard
                         title={project.title}
-                        key={project.key}
+                        id={project.id}
                         image={project.image}
                         path={project.path}
                         info={project.info}

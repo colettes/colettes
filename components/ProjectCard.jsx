@@ -16,8 +16,13 @@ export default function ProjectCard(props) {
             <div className={styles.title}>{props.title}</div>
             <div className={styles.description}>{props.info}</div>
 
-            <Link href={props.path}>
-                <button>More info</button>
+            <Link
+                href={{
+                    pathname: props.path,
+                    query: { id: props.id },
+                }}
+            >
+                <button>More info {props.id}</button>
             </Link>
         </div>
     );
