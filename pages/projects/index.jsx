@@ -2,7 +2,7 @@ import ProjectCard from '../../components/ProjectCard';
 import styles from '../../styles/Projects.module.css';
 import { projectList } from '../../public/projectList';
 
-function ProjectsPage() {
+export default function ProjectsPage() {
     return (
         <div>
             <h1>Projects</h1>
@@ -20,5 +20,3 @@ function ProjectsPage() {
         </div>
     );
 }
-
-export default ProjectsPage;

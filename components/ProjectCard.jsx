@@ -19,10 +19,9 @@ export default function ProjectCard(props) {
             <Link
                 href={{
                     pathname: props.path,
-                    query: { id: props.id },
                 }}
             >
-                <button>More info {props.id}</button>
+                <button>More info</button>
             </Link>
         </div>
     );

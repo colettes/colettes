@@ -20,7 +20,9 @@ export default function Layout(props) {
             </div>
             <main className={styles.main}>
                 <Link href="/">
-                    <a className={styles.title}>Colette Smith</a>
+                    <a className={styles.title}>
+                        Colette <br /> Smith
+                    </a>
                 </Link>
                 <NavBar />
             </main>
