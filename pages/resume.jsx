@@ -46,11 +46,13 @@ function ResumePage() {
                     <div className={styles.date}>2022 &darr; now</div>
                     <div className={styles.subsection_info}>
                         <div className={styles.subsection_title}>STEPCHLD</div>
-                        <div className={styles.subsection_subtitle}>
-                            Bartender
-                        </div>
+                        <div className={styles.subsection_subtitle}>FOH</div>
                         <div className={styles.subsection_desc}>
-                            all the info is bd
+                            I maintained an important role in elevating customer
+                            satisfaction by remaining calm and calibrated under
+                            demanding situations. I lead and directed employees
+                            to address current business needs in a fast-paced
+                            environment.
                         </div>
                     </div>
                 </div>
