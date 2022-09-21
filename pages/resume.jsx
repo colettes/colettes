@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import styles from '../styles/Resume.module.css';
 
+/* TODO: Refactor out infor */
+
 function ResumePage() {
     const techSkills = [
         'Javascript / React.js',
@@ -137,5 +139,3 @@ function ResumePage() {
 }
 
 export default ResumePage;
-
-//<Image src={resumePic} layout="intrinsic" />
