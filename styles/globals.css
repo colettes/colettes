@@ -10,16 +10,21 @@ body {
         Helvetica Neue;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
 /* each page title*/
 h1 {
     font-size: 10vmin;
     font-weight: 500;
-    padding: 10vmin 0 0vmin 12vmin;
+    padding: 10vmin 0 0 12vmin;
     font-family: gopher, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
         Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+}
+
+a {
+    text-decoration: none;
+    color: #d02500;
+    font-weight: 550;
+}
+
+a:hover {
+    opacity: 0.8;
 }

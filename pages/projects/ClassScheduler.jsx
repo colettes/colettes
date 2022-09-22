@@ -25,7 +25,7 @@ export default function ClassScheduler() {
                     order to guide the next steps and center the team on one
                     idea.
                 </div>
-                <div className={styles.section_image}>
+                <div className={styles.image_wrapper}>
                     <Image
                         alt="Graphic demonstrating opinions of a theoretical DePaul student."
                         src="/portfolio/classScheduler/persona1.png"
@@ -33,8 +33,9 @@ export default function ClassScheduler() {
                         height={1054}
                         layout="responsive"
                     />
+                </div>
+                <div className={styles.image_wrapper}>
                     <Image
-                        className={styles.section_image}
                         alt="Second graphic demonstrating opinions of a theoretical DePaul student."
                         src="/portfolio/classScheduler/persona2.png"
                         width={1566}
@@ -46,12 +47,16 @@ export default function ClassScheduler() {
                 <div className={styles.section}>
                     I lead a team by creating the basic wireframe, editing
                     teammates pages, and completing the project which you can
-                    view on Figma. It was constructed to address user flow
-                    issues and simplify the UX design, based on ongoing feedback
-                    from DePaul students.
+                    view on{' '}
+                    <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTydyHMmsqSb3MnpNl2PJX5%2FClass-Scheduler-(Copy)%3Fnode-id%3D15%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D15%253A">
+                        Figma
+                    </a>
+                    . It was constructed to address user flow issues and
+                    simplify the UX design, based on ongoing feedback from
+                    DePaul students.
                 </div>
                 <iframe
-                    className={styles.frame}
+                    className={styles.frame_wrapper}
                     width="800"
                     height="450"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTydyHMmsqSb3MnpNl2PJX5%2FClass-Scheduler-(Copy)%3Fnode-id%3D15%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D15%253A2"

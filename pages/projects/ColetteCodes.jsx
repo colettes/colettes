@@ -4,28 +4,37 @@ import Image from 'next/image';
 export default function ColetteCodes() {
     return (
         <div>
-            <h1>Colette.codes</h1>
+            <h1>
+                Colette.codes
+                <div className={styles.source_links}>
+                    <a href="https://github.com/colettes/colettes.github.io">
+                        Source Code
+                    </a>
+                </div>
+            </h1>
             <div className={styles.container}>
+                <div className={styles.section_title}>The Objective</div>
                 <div className={styles.section}>
-                    The current system that students use to schedule classes at
-                    Depaul is clunky and counterintuitive. It requires multiple
-                    applications that are not integrated, meaning a frustrating
-                    amount of going back and forth between web pages. The goal
-                    was to design a user friendly solution to the current
-                    system, using the principles of interaction design and
-                    applying usability methods
+                    I wanted to create a completely personalized resume site
+                    with my own design and coding style. I look forward to
+                    treating this as a space for continually adding,
+                    refactoring, and modifying; as my own little note pad.
                 </div>
+                <div className={styles.section_title}>The Process</div>
                 <div className={styles.section}>
-                    After identifying the problem, I conducted several
-                    interviews with DePaul students. Then, I created two
-                    personas based on the observations that came to light.
+                    I started the site utilizing Create React App, although I
+                    switched to <b>Next.js</b> in order to tryout a new
+                    framework and platform. Looking through the source code, you
+                    can see that there have been several changes to the overall
+                    design in <b>CSS</b> styling and <b>HTML</b> which I credit
+                    to not creating a wireframe in the first place.
                 </div>
+                <div className={styles.section_title}>The Process</div>
                 <div className={styles.section}>
-                    With the help of the team, I lead the wireframing and design
-                    to a complete prototype that you can view on Figma. It was
-                    constructed based with recommendations to address user flow
-                    and the hierarchy of information to increase user
-                    accessibility.
+                    I made the decision to not use any external components in
+                    the design and slowly create my own libary of components. I
+                    will continue to refactor and focus on a <b>functional</b>{' '}
+                    style of programming.
                 </div>
             </div>
         </div>

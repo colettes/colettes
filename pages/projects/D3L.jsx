@@ -4,29 +4,56 @@ import Image from 'next/image';
 export default function D3L() {
     return (
         <div>
-            <h1>D3L</h1>
-            <div className={styles.container}>
-                <div className={styles.section}>
-                    The current system that students use to schedule classes at
-                    Depaul is clunky and counterintuitive. It requires multiple
-                    applications that are not integrated, meaning a frustrating
-                    amount of going back and forth between web pages. The goal
-                    was to design a user friendly solution to the current
-                    system, using the principles of interaction design and
-                    applying usability methods
+            <h1>
+                D2L Redesign
+                <div className={styles.source_links}>
+                    <a href="https://github.com/colettes/D3L">Source Code</a>
                 </div>
+            </h1>
+
+            <div className={styles.container}>
+                <div className={styles.section_title}>The Objective</div>
                 <div className={styles.section}>
-                    After identifying the problem, I conducted several
-                    interviews with DePaul students. Then, I created two
-                    personas based on the observations that came to light.
+                    To develop a dynamic software system that is more condusive
+                    to group projects at the Univesrity level; to replace the
+                    current web application and foster collaboration.
+                </div>
+                <div className={styles.section_title}>The Process</div>
+
+                <div className={styles.section}>
+                    Over 10 weeks, a team of 6 people developed the technical
+                    documentation, adapted to changing requirements, and
+                    completed a testable software system. Employing{' '}
+                    <b>ReactJS</b>, we created a full-stack web app through{' '}
+                    <b>AGILE</b> development. Individually, I constructed a
+                    simple wireframe using <b>AdobeXD</b>, implemented the
+                    front-end design using <b>CSS/HTML</b>, and was one of two
+                    team leads throughout.
                 </div>
 
                 <div className={styles.section}>
-                    With the help of the team, I lead the wireframing and design
-                    to a complete prototype that you can view on Figma. It was
-                    constructed based with recommendations to address user flow
-                    and the hierarchy of information to increase user
-                    accessibility.
+                    Below is a simple wireframe presentation of the design and
+                    student dashboard appearance.
+                </div>
+
+                <iframe
+                    className={styles.frame_wrapper}
+                    width="640"
+                    height="400"
+                    src="https://xd.adobe.com/embed/28bde728-1159-4167-ab67-8efc3687383b-7dee/?fullscreen"
+                    frameborder="0"
+                    allowfullscreen
+                ></iframe>
+
+                <div className={styles.section}>
+                    <ul>
+                        Highlights
+                        <li>ReactJS</li>
+                        <li>Create React App</li>
+                        <li>NodeJS</li>
+                        <li>GitHub</li>
+                        <li>Agile Development</li>
+                    </ul>
                 </div>
             </div>
         </div>
