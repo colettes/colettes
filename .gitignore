@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+next.config.js
+package.json
+pack-lock.json
+.eslintrc.json
 
 # testing
 /coverage
@@ -35,3 +39,4 @@ yarn-error.log*
 
 # TODO
 README.md
+TODO.md
