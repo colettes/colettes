@@ -8,10 +8,15 @@ export default function Footer() {
                     <a href="https://github.com/colettes">
                         <i className="bi bi-github"></i>
                     </a>
-                    <i className="bi bi-linkedin"></i>
-
-                    <i className="bi bi-behance"></i>
-                    <i className="bi bi-envelope"></i>
+                    <a href="https://www.linkedin.com/in/colette-smith-a468a6132/">
+                        <i className="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.behance.net/colettes">
+                        <i className="bi bi-behance"></i>
+                    </a>
+                    <a href="mailto:smithcolettem@gmail.com">
+                        <i className="bi bi-envelope"></i>
+                    </a>
                 </div>
                 <div className={styles.signature}>Colette Smith 2022</div>
             </div>

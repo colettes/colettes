@@ -30,8 +30,8 @@ export default function StockTracker() {
                     width="375"
                     height="812"
                     src="https://xd.adobe.com/embed/4693cea1-a1ad-4dec-b8f4-4740325e9c46-13c0/?fullscreen"
-                    frameborder="0"
-                    allowfullscreen
+                    frameBorder="0"
+                    allowFullscreen
                 ></iframe>
             </div>
         </div>

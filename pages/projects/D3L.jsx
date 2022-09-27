@@ -26,14 +26,14 @@ export default function D3L() {
                     completed a testable software system. Employing{' '}
                     <b>ReactJS</b>, we created a full-stack web app through{' '}
                     <b>AGILE</b> development. Individually, I constructed a
-                    simple wireframe using <b>AdobeXD</b>, implemented the
-                    front-end design using <b>CSS/HTML</b>, and was one of two
-                    team leads throughout.
+                    simple wireframe using <b>AdobeXD</b> and implemented the
+                    front-end design using <b>CSS/HTML</b>. I worked closely
+                    with the team to build an interactive web application.
                 </div>
 
                 <div className={styles.section}>
-                    Below is a simple wireframe presentation of the design and
-                    student dashboard appearance.
+                    Below is the intial wireframe presentation of the student
+                    dashboard appearance.
                 </div>
 
                 <iframe
@@ -41,8 +41,8 @@ export default function D3L() {
                     width="640"
                     height="400"
                     src="https://xd.adobe.com/embed/28bde728-1159-4167-ab67-8efc3687383b-7dee/?fullscreen"
-                    frameborder="0"
-                    allowfullscreen
+                    frameBorder="0"
+                    allowFullscreen
                 ></iframe>
 
                 <div className={styles.section}>

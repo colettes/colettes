@@ -23,6 +23,17 @@ export default function Yesipe() {
                     The current stack that I am utilizing consists of Next.JS,
                     mySQL, RESTful API endpoints, and prototyping with AdobeXD.
                 </div>
+
+                <div className={styles.section}>
+                    Below is a mood board for the initial design.
+                </div>
+                <Image
+                    alt="Mood board of colors and fonts"
+                    src="/portfolio/yesipe/inspo.png"
+                    width={1566}
+                    height={1054}
+                    layout="responsive"
+                />
             </div>
         </div>
     );

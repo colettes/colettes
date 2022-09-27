@@ -6,8 +6,9 @@ export default function Index() {
         <div className={styles.container}>
             <h1>Hi there!</h1>
             <h2>
-                My name is <b>Colette</b>. <br /> <i>A bit about me:</i> I like
-                to <b>code</b> things, <b>design</b> stuff, <b>manage</b> my
+                My name is <b>Colette</b>. <br /> I'm a <b>bartender</b> by
+                night and <b>web designer</b> by day. <br /> I like to{' '}
+                <b>code</b> things, <b>design</b> stuff, <b>manage</b> my
                 business, and read about mezcal &#38; wine.
             </h2>
         </div>

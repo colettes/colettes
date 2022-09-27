@@ -6,7 +6,6 @@ export default function ProjectCard(props) {
     return (
         <div className={styles.card}>
             <Image
-                alt="" //TODO
                 className={styles.image}
                 src={props.image}
                 width={25}

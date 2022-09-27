@@ -1,6 +1,13 @@
 export const projectList = [
     {
         id: 1,
+        title: 'D2L Redesign',
+        image: '/portfolio/d3l/d3l1.png',
+        path: 'projects/D3L',
+        info: 'A fullstack application to simplify a commonly used educational resource.',
+    },
+    {
+        id: 2,
         title: 'Teti Logo Design',
         image: '/portfolio/tetiRebrand/tetiCard.png',
         path: '/projects/TetiLogo',
@@ -8,18 +15,11 @@ export const projectList = [
         info: 'Rebranding of my vintage shop in order to make it more appealing at in-person events.',
     },
     {
-        id: 2,
-        title: 'Colette.codes',
-        image: '/portfolio/yesipe/yesipe.png',
-        path: 'projects/ColetteCodes',
-        info: 'A bit meta, but this website was built using Next.JS.',
-    },
-    {
         id: 3,
-        title: 'D2L Redesign',
-        image: '/portfolio/d3l/d3l1.png',
-        path: 'projects/D3L',
-        info: 'A fullstack application to simplify a commonly used educational resource.',
+        title: 'Colette.codes',
+        image: '/portfolio/colette/colette.png',
+        path: 'projects/ColetteCodes',
+        info: 'A bit meta, but this is a static website that was built using Next.JS.',
     },
     {
         id: 4,

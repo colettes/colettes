@@ -18,6 +18,7 @@ function ResumePage() {
         'Managing client expectations',
         'Strong verbal communication',
         'Prioritization',
+        'Time management',
     ];
 
     return (
@@ -50,11 +51,12 @@ function ResumePage() {
                         <div className={styles.subsection_title}>STEPCHLD</div>
                         <div className={styles.subsection_subtitle}>FOH</div>
                         <div className={styles.subsection_desc}>
-                            I maintained an important role in elevating customer
-                            satisfaction by remaining calm and calibrated under
-                            demanding situations. I lead and directed employees
-                            to address current business needs in a fast-paced
-                            environment.
+                            I communicate clearly and positively with fellow
+                            team members and customers to maintain a high level
+                            of service. With the transition to a more intimately
+                            sized restaurant, I am able to develop customer
+                            relationships and prioritize enhancing my wine
+                            knowledge.
                         </div>
                     </div>
                 </div>
@@ -72,7 +74,7 @@ function ResumePage() {
                             satisfaction by remaining calm and calibrated under
                             demanding situations. I lead and directed employees
                             to address current business needs in a fast-paced
-                            environment.
+                            and high-volume environment.
                         </div>
                     </div>
                 </div>
@@ -88,7 +90,7 @@ function ResumePage() {
                         <div className={styles.subsection_desc}>
                             Provided direct assistance to the office manager by
                             handling confidential information and following
-                            strict deadlines. I was required to pay accute
+                            strict deadlines. I was required to pay acute
                             attention to detail in order to accurately and
                             fairly bill each client.
                         </div>
@@ -116,8 +118,11 @@ function ResumePage() {
                     <div className={styles.subsection_skills}>
                         <div className={styles.subsection_skills_title}>
                             Tech
-                            {techSkills.map((skill) => (
-                                <div className={styles.subsection_skill}>
+                            {techSkills.map((skill, index) => (
+                                <div
+                                    key={index}
+                                    className={styles.subsection_skill}
+                                >
                                     {skill}
                                 </div>
                             ))}
@@ -125,8 +130,11 @@ function ResumePage() {
 
                         <div className={styles.subsection_skills_title}>
                             Other
-                            {softSkills.map((skill) => (
-                                <div className={styles.subsection_skill}>
+                            {softSkills.map((skill, index) => (
+                                <div
+                                    key={index}
+                                    className={styles.subsection_skill}
+                                >
                                     {skill}
                                 </div>
                             ))}
