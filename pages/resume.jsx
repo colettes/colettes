@@ -27,6 +27,21 @@ function ResumePage() {
             <div className={styles.section}>
                 <div className={styles.section_title}>Work Experience</div>
                 <div className={styles.subsection}>
+                    <div className={styles.date}>2022 &darr; now</div>
+                    <div className={styles.subsection_info}>
+                        <div className={styles.subsection_title}>STEPCHLD</div>
+                        <div className={styles.subsection_subtitle}>FOH</div>
+                        <div className={styles.subsection_desc}>
+                            I communicate clearly and positively with fellow
+                            team members and customers to maintain a high level
+                            of service. With the transition to a more intimately
+                            sized restaurant, I am able to develop customer
+                            relationships and prioritize enhancing my wine
+                            knowledge.
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.subsection}>
                     <div className={styles.date}>2013 &darr; Now</div>
                     <div className={styles.subsection_info}>
                         <div className={styles.subsection_title}>
@@ -42,21 +57,6 @@ function ResumePage() {
                             with over 400 5-star reviews across multiple
                             platforms through positive engagement and timely
                             responses to customer needs.
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.subsection}>
-                    <div className={styles.date}>2022 &darr; now</div>
-                    <div className={styles.subsection_info}>
-                        <div className={styles.subsection_title}>STEPCHLD</div>
-                        <div className={styles.subsection_subtitle}>FOH</div>
-                        <div className={styles.subsection_desc}>
-                            I communicate clearly and positively with fellow
-                            team members and customers to maintain a high level
-                            of service. With the transition to a more intimately
-                            sized restaurant, I am able to develop customer
-                            relationships and prioritize enhancing my wine
-                            knowledge.
                         </div>
                     </div>
                 </div>
