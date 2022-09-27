@@ -5,8 +5,6 @@
 /.pnp
 .pnp.js
 next.config.js
-package.json
-pack-lock.json
 .eslintrc.json
 
 # testing
